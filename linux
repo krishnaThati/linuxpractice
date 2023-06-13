@@ -49,3 +49,30 @@
    49  ls
    50  ./shutdown.sh 
    51  ./startup.sh 
+   https://github.com/GREATCODERHYD/boxfuse-sample-java-war-hello.git
+
+docker start $(docker ps -a -q --filter "status=exited")
+
+    docker run -it --name mycont1 -p 8080:8080 tomcat bash
+    docker run -it --name mycont1 -p 8080:8080 tomcat bash
+    docker ps -a
+    docker start $(docker ps -a -q --filter "status=exited")
+
+   docker exec -it f6eb9907f2a7 bash
+
+
+  
+  docker cp target/*.war mycont1:/usr/local/tomcat/webapps/kc.war
+  
+  
+  docker pull tomcat:latest
+
+docker run -d --name mytomcat -p 8080:8080 tomcat:latest
+
+docker exec -it mytomcat /bin/bash
+
+mv webapps webapps2
+
+mv webapps.dist/ webapps
+
+exit
