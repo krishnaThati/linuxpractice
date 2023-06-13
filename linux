@@ -1,0 +1,51 @@
+    1  amazon-linux-extras install java-openjdk11 -y
+    2  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.tar.gz
+    3  ls
+    4  tar -xzvf apache-tomcat-9.0.71.tar.gz 
+    5  ls
+    6  cd apache-tomcat-9.0.71/
+    7  ls
+    8  cd bin
+    9  ls
+   10  ./startup.sh 
+   11  cd ..
+   12  find / -name context.xm
+   13  find / -name context.xml
+   14  vi /webapps/host-manager/META-INF/context.xml
+   15  cd apache-tomcat-9.0.71/
+   16  vi /webapps/host-manager/META-INF/context.xml
+   17  ls
+   18  cd webapps
+   19  ls
+   20  cd manager/
+   21  ls
+   22  cd META-INF/
+   23  ls
+   24  vi context.xml 
+   25  cd ..
+   26  ls
+   27  cd host-manager/
+   28  ls
+   29  cd META-INF/
+   30  ls
+   31  vi context.xml 
+   32  cd ..
+   33  clear
+   34  ls
+   35  cd bin
+   36  ls
+   37  ./shutdown.sh 
+   38  ./startup.sh 
+   39  clear
+   40  ls
+   41  cd ..
+   42  ls
+   43  cd conf/
+   44  ls
+   45  vi tomcat-users.xml
+   46  cd ..
+   47  ls
+   48  cd bin/
+   49  ls
+   50  ./shutdown.sh 
+   51  ./startup.sh 
